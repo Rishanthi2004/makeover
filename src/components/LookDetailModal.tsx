@@ -1,4 +1,4 @@
-import { X, Sparkles, Clock, Check, ArrowRight } from 'lucide-react';
+import { X, Clock, Check, ArrowRight } from 'lucide-react';
 import { BridalLook } from '../types';
 
 interface LookDetailModalProps {
@@ -49,7 +49,6 @@ export function LookDetailModal({ look, onClose, onBookLook }: LookDetailModalPr
         <div className="w-full md:w-1/2 p-6 sm:p-8 flex flex-col justify-between">
           <div>
             <div className="hidden md:flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-[#C99583] font-medium mb-1">
-              <Sparkles className="w-3.5 h-3.5" />
               <span>{look.category} Signature Look</span>
             </div>
 

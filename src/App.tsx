@@ -11,7 +11,6 @@ import { CollectionsSection } from './components/CollectionsSection';
 import { TransformationSection } from './components/TransformationSection';
 import { ArtistrySection } from './components/ArtistrySection';
 import { BookingSection } from './components/BookingSection';
-import { FloatingPowder3D } from './components/FloatingPowder3D';
 import { Footer } from './components/Footer';
 
 export default function App() {
@@ -41,9 +40,6 @@ export default function App() {
     <div className="min-h-screen bg-[#FAF7F2] text-[#201A18] font-sans antialiased selection:bg-[#E8C5BD] selection:text-[#1F1B1A]">
       {/* 3-Zone Sticky Navigation Bar */}
       <Navbar onBookClick={scrollToBooking} />
-
-      {/* Real 3D Ambient Cosmetic Powder & Rose Gold Sparkle System */}
-      <FloatingPowder3D />
 
       <main>
         {/* Section 1: Cinematic Bridal Slideshow & Video Reel Hero */}

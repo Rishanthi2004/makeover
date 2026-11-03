@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Sparkles, Crown, Heart, Award } from 'lucide-react';
+import { Crown, Heart, Award } from 'lucide-react';
 import { ATELIER_INFO } from '../data/atelierData';
 import { Card3D } from './Card3D';
 
@@ -21,7 +21,6 @@ export function IntroSection() {
             viewport={{ once: false, amount: 0.3 }}
             className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-[#C99583] font-medium"
           >
-            <Sparkles className="w-3.5 h-3.5" />
             <span>The Atelier Vision</span>
           </motion.div>
 

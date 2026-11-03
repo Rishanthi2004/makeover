@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import { Sparkles } from 'lucide-react';
 import { ARTISTRY_DETAILS } from '../data/atelierData';
 import { Card3D } from './Card3D';
 
@@ -10,7 +9,6 @@ export function ArtistrySection() {
         {/* Minimal Section Header */}
         <div className="flex flex-col items-center text-center mb-20">
           <div className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-[#C99583] font-medium">
-            <Sparkles className="w-3.5 h-3.5" />
             <span>Macro Craftsmanship</span>
           </div>
 

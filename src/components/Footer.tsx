@@ -1,4 +1,4 @@
-import { Sparkles, ArrowUp } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 import { ATELIER_INFO } from '../data/atelierData';
 
 export function Footer() {

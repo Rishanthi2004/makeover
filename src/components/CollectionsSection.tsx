@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Sparkles, ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { BRIDAL_LOOKS } from '../data/atelierData';
 import { BridalLook } from '../types';
 import { LookDetailModal } from './LookDetailModal';
@@ -15,7 +15,6 @@ export function CollectionsSection({ onSelectLook }: { onSelectLook: (lookName: 
         {/* Minimal Section Header */}
         <div className="flex flex-col items-center text-center mb-16">
           <div className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-[#C99583] font-medium">
-            <Sparkles className="w-3.5 h-3.5" />
             <span>Couture Aesthetics</span>
           </div>
 

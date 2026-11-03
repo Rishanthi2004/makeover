@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Sparkles } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { ATELIER_INFO } from '../data/atelierData';
 
 export function Navbar({ onBookClick }: { onBookClick: () => void }) {
@@ -79,7 +79,6 @@ export function Navbar({ onBookClick }: { onBookClick: () => void }) {
                 : 'bg-white/90 text-[#201A18] hover:bg-white hover:shadow-lg backdrop-blur-xs'
             }`}
           >
-            <Sparkles className="w-3.5 h-3.5 text-[#C99583]" />
             <span>Book Your Look</span>
           </button>
 
@@ -118,7 +117,6 @@ export function Navbar({ onBookClick }: { onBookClick: () => void }) {
               }}
               className="mt-2 w-full py-3 bg-[#201A18] text-[#FAF7F2] text-xs font-medium tracking-[0.2em] uppercase rounded-full hover:bg-[#C99583] transition-colors flex items-center justify-center gap-2"
             >
-              <Sparkles className="w-4 h-4 text-[#C99583]" />
               Book Your Look
             </button>
           </nav>

@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback } from 'react';
 import { motion } from 'motion/react';
-import { Sparkles, ChevronsLeftRight } from 'lucide-react';
+import { ChevronsLeftRight } from 'lucide-react';
 import { Card3D } from './Card3D';
 
 export function TransformationSection() {
@@ -35,7 +35,6 @@ export function TransformationSection() {
         {/* Minimal Section Header */}
         <div className="flex flex-col items-center text-center mb-14">
           <div className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-[#C99583] font-medium">
-            <Sparkles className="w-3.5 h-3.5" />
             <span>Interactive Alchemy</span>
           </div>
 

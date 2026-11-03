@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Sparkles, Calendar, Phone, User, Mail, MapPin, CheckCircle } from 'lucide-react';
+import { Calendar, Phone, User, Mail, MapPin, CheckCircle } from 'lucide-react';
 import { BookingFormData } from '../types';
 import { BRIDAL_PACKAGES } from '../data/atelierData';
 
@@ -65,7 +65,6 @@ export function BookingSection({ preselectedPackage, preselectedLook }: BookingS
         {/* Minimal Section Header */}
         <div className="flex flex-col items-center text-center mb-16">
           <div className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-[#C99583] font-medium">
-            <Sparkles className="w-3.5 h-3.5" />
             <span>Private Concierge</span>
           </div>
 
@@ -231,7 +230,6 @@ export function BookingSection({ preselectedPackage, preselectedLook }: BookingS
                   type="submit"
                   className="w-full py-4 bg-[#201A18] text-[#FAF7F2] text-xs font-semibold tracking-[0.25em] uppercase rounded-full hover:bg-[#C99583] hover:scale-[1.01] transition-all duration-300 shadow-xl flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <Sparkles className="w-4 h-4 text-[#C99583]" />
                   <span>BOOK YOUR LOOK</span>
                 </button>
               </div>

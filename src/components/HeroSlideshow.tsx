@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Sparkles, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import { ATELIER_INFO } from '../data/atelierData';
 
 interface Slide {
@@ -147,7 +147,6 @@ export function HeroSlideshow({ onExploreClick }: { onExploreClick: () => void }
             className="flex flex-col items-center"
           >
             <div className="inline-flex items-center gap-2 mb-3 text-[#E8C5BD] text-xs font-medium tracking-[0.35em] uppercase">
-              <Sparkles className="w-3.5 h-3.5 text-[#C99583]" />
               <span>{ATELIER_INFO.heroSubtitle}</span>
             </div>
 
