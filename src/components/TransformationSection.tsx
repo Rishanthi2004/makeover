@@ -8,8 +8,8 @@ export function TransformationSection() {
   const [isDragging, setIsDragging] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const beforeImage = '/src/assets/images/bridal_before_makeup_1793681584008.jpg';
-  const afterImage = '/src/assets/images/bridal_after_makeup_1793681618178.jpg';
+  const beforeImage = '/assets/images/bridal_before_makeup_1793681584008.jpg';
+  const afterImage = '/assets/images/bridal_after_makeup_1793681618178.jpg';
 
   const handleMove = useCallback((clientX: number) => {
     if (!containerRef.current) return;

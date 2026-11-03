@@ -21,7 +21,7 @@ export const BRIDAL_LOOKS: BridalLook[] = [
     title: 'Traditional Bridal',
     subtitle: 'Regal Heritage & Majestic Radiance',
     category: 'traditional',
-    image: '/src/assets/images/bridal_traditional_look_1793681582782.jpg',
+    image: '/assets/images/bridal_traditional_look_1793681582782.jpg',
     description:
       'A breathtaking union of imperial grandeur and velvet skin perfection. Crafted for ceremonial splendor, featuring warm antique gold-leaf highlights, sculpted rose-petal velvet lips, and eyes framed by heritage opulence.',
     skinFinish: 'Velvet luminous satin, high-longevity humidity-proof base',
@@ -36,7 +36,7 @@ export const BRIDAL_LOOKS: BridalLook[] = [
     title: 'Modern Bridal',
     subtitle: 'Glass-Skin Elegance & Parisian Chic',
     category: 'modern',
-    image: '/src/assets/images/bridal_modern_look_1793681583712.jpg',
+    image: '/assets/images/bridal_modern_look_1793681583712.jpg',
     description:
       'Effortless haute-couture minimalism. Centered around translucent, porcelain glass skin, feathered natural brows, and a monochrome wash of soft nude-peach tones that mirror natural morning luminescence.',
     skinFinish: 'Dewy glass skin, ultra-sheer weightless water-infused veil',
@@ -51,7 +51,7 @@ export const BRIDAL_LOOKS: BridalLook[] = [
     title: 'Reception Glam',
     subtitle: 'Candlelight Shimmer & Black-Tie Drama',
     category: 'reception',
-    image: '/src/assets/images/bridal_reception_glam_1793681584455.jpg',
+    image: '/assets/images/bridal_reception_glam_1793681584455.jpg',
     description:
       'Designed to mesmerize beneath grand chandeliers and candlelight. Features multidimensional bronze-champagne micro-pigments, sculpted cheekbone architecture, and a luscious couture nude pout.',
     skinFinish: 'Sculpted candlelight glow with soft-focus diamond diffuse setting',
@@ -70,7 +70,7 @@ export const ARTISTRY_DETAILS = [
     subtitle: 'Skin Chemistry & Micro-Milled Radiance',
     description:
       'We tailor custom botanical emulsions and microscopic light-refracting pigments directly to your skin’s biological undertones, ensuring a radiant, breathable finish that photographs impeccably in high definition 8K.',
-    image: '/src/assets/images/makeup_detail_complexion_1793681618673.jpg',
+    image: '/assets/images/makeup_detail_complexion_1793681618673.jpg',
     metrics: '18-Hour Wear · Flashback-Free'
   },
   {
@@ -79,7 +79,7 @@ export const ARTISTRY_DETAILS = [
     subtitle: 'Dimensional Eye Architecture',
     description:
       'Each eye look is a delicate interplay of champagne pigments, hand-placed single silk fibers, and seamless gradients designed to accentuate the natural cadence of your gaze without heavy weight.',
-    image: '/src/assets/images/makeup_detail_eyeshadow_1793681618560.jpg',
+    image: '/assets/images/makeup_detail_eyeshadow_1793681618560.jpg',
     metrics: 'Custom Mink & Silk Lashes · Waterproof'
   },
   {
@@ -88,7 +88,7 @@ export const ARTISTRY_DETAILS = [
     subtitle: 'Hyaluronic Infusion & Bespoke Pigment',
     description:
       'Custom blended pigments pressed with botanical emollients and peptides create a pillow-soft, kiss-proof satin finish that retains hydration through emotional vows, champagne toasts, and midnight dancing.',
-    image: '/src/assets/images/makeup_detail_lips_1793681618415.jpg',
+    image: '/assets/images/makeup_detail_lips_1793681618415.jpg',
     metrics: 'Transfer-Resistant · Peptide Plumped'
   }
 ];
@@ -162,7 +162,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gallery-1',
     title: 'The Cathedral Reverie',
     category: 'Ceremony',
-    image: '/src/assets/images/bridal_gallery_veil_1793681619249.jpg',
+    image: '/assets/images/bridal_gallery_veil_1793681619249.jpg',
     aspect: 'portrait',
     caption: 'Lace embroidery and morning sunbeams inside a Parisian salon.'
   },
@@ -170,7 +170,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gallery-2',
     title: 'Velvet Heritage',
     category: 'Traditional',
-    image: '/src/assets/images/bridal_traditional_look_1793681582782.jpg',
+    image: '/assets/images/bridal_traditional_look_1793681582782.jpg',
     aspect: 'portrait',
     caption: 'Antique gold filigree and regal velvet rose makeup.'
   },
@@ -178,7 +178,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gallery-3',
     title: 'Chateau Luminescence',
     category: 'Editorial',
-    image: '/src/assets/images/bridal_intro_portrait_1793681581412.jpg',
+    image: '/assets/images/bridal_intro_portrait_1793681581412.jpg',
     aspect: 'landscape',
     caption: 'Full-length bridal portrait with romantic peony bouquet and lace veil.'
   },
@@ -186,7 +186,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gallery-4',
     title: 'Minimalist Splendor',
     category: 'Modern',
-    image: '/src/assets/images/bridal_modern_look_1793681583712.jpg',
+    image: '/assets/images/bridal_modern_look_1793681583712.jpg',
     aspect: 'portrait',
     caption: 'Contemporary square-neck gown with sculpted luminous glass skin.'
   },
@@ -194,7 +194,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gallery-5',
     title: 'Gilded Starlight',
     category: 'Reception',
-    image: '/src/assets/images/bridal_reception_glam_1793681584455.jpg',
+    image: '/assets/images/bridal_reception_glam_1793681584455.jpg',
     aspect: 'portrait',
     caption: 'Chandelier illumination and champagne smoky eye artistry.'
   },
@@ -202,7 +202,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gallery-6',
     title: 'The Golden Hour Gaze',
     category: 'Details',
-    image: '/src/assets/images/makeup_detail_eyeshadow_1793681618560.jpg',
+    image: '/assets/images/makeup_detail_eyeshadow_1793681618560.jpg',
     aspect: 'square',
     caption: 'Delicate micro-glitter pigments catching the amber sunset.'
   }

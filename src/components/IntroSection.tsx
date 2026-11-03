@@ -4,7 +4,7 @@ import { ATELIER_INFO } from '../data/atelierData';
 import { Card3D } from './Card3D';
 
 export function IntroSection() {
-  const introImage = '/src/assets/images/bridal_intro_portrait_1793681581412.jpg';
+  const introImage = '/assets/images/bridal_intro_portrait_1793681581412.jpg';
 
   return (
     <section id="introduction" className="relative w-full bg-[#FAF7F2] py-28 md:py-36 overflow-hidden">
